@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.dungzi.bangboja" version="1" xmlns="http://www.w3.org/ns/widgets"  xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.dungzi.villacokmobile" version="1" xmlns="http://www.w3.org/ns/widgets"  xmlns:gap="http://phonegap.com/ns/1.0">
     <name>방보자닷컴</name>
     <description>	
         방보자닷컴
@@ -11,9 +11,11 @@
 	<preference name="SplashScreenDelay" value="10000" />
 	<preference name="android-minSdkVersion" value="15" />
 	<preference name="fullscreen" value="true" />
+
 	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
 	<gap:plugin name="cordova-plugin-inappbrowser" source="npm"  />
-	<allow-navigation href="http://bangboja.com/*" />
+	
+	<allow-navigation href="http://jinsimstory.dungzi.com/*" />
 	<icon src="icon.png" />
 	<content src="index.html" />
 	<access origin="*" />
